@@ -193,14 +193,11 @@ function Kavo.CreateLib(kavName, themeList)
         end
     end
     local ScreenGui = Instance.new("ScreenGui")
-    local Main = Instance.new("Frame1")
+    local Main = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
-    local Frame.BackgroundTransparency = 0.3
     local MainHeader = Instance.new("Frame")
-    local Frame.BackgroundTransparency = .2
     local headerCover = Instance.new("UICorner")
-    local coverup = Instance.new("Frame3")
-    local Frame3.BackgroundTransparency = .3
+    local coverup = Instance.new("Frame")
     local title = Instance.new("TextLabel")
     local close = Instance.new("ImageButton")
     local MainSide = Instance.new("Frame")
